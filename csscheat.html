@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header align="center">
+        <h1>TECH1101: Final Term Project</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="htmlcheat.html">HTML</a></li>
+                <li><a href="csscheat.html">CSS</a></li>
+            </ul>
+        </nav>
+     </header>
+    <table width="900" align="center">
+        <tr>
+            <td align="center"><h1>CSS Cheatsheet</h1></td>
+        </tr>
+        <tr>
+            <td><h2>Font Properties</h2>
+                <p title="Changes the font family of certain words, sentences, paragraphs, etc.">Font-Family <br> 
+                   P { font-family: "New Century Schoolbook", Times, serif; }
+                </p>
+                
+                <p title="Changes text: normal, oblique, and italics.">Font-Style <br> 
+                    H1 { font-style: oblique; } <br>
+                    P { font-style: normal; }
+                </p>
+
+                <p title="Used to display font in normal or small-caps.">Font-Variant <br> 
+                    SPAN { font-variant: small-caps; }
+                </p>
+
+                <p title="Used to specify the weight of the font.">Font-Weight <br> 
+                    H1 { font-weight: 800; } or P { font-weight: normal; }
+                </p>
+
+                <p title="Used to modify the size of the displayed font.">Font-Size <br> 
+                    H1 { font-size: large; } or P { font-size: 12pt; } <br> 
+                    LI { font-size: 90%; } <br>
+                    STRONG { font-size: larger; }
+                </p>
+
+                <p title="Used to combine all properties of fonts.">Font <br> 
+                    P { font: italic bold 12pt/14pt Times, serif; }
+                </p> 
+            </td>
+        </tr>
+        <tr>
+            <td><h2>Color and Background Properties</h2>
+                <p title="Changes the color of text.">Color <br> 
+                    H1 { color: blue; } or H2 { color: #000080; }
+                </p>
+                
+                <p title="Sets the background color of an element.">Background-Color <br> 
+                    BODY { background-color: white; } <br>
+                    H1 { background-color: #000080; }
+                </p>
+
+                <p title="Sets the background image of an element.">Background-Image<br> 
+                    BODY { background-image: url(/images/foo.gif); } <br>
+                    P { background-image: url(http://www.htmlhelp.com/bg.png); }
+                </p>
+                
+                <p title="Determines how a specified background image is repeated. The repeat-x value will repeat the image horizontally while the repeat-y value will repeat the image vertically.">Background-Repeat<br> 
+                    BODY { background: white url(candybar.gif); <br>
+                    background-repeat: repeat-x; }</p>
+                
+                <p title="Determines if a specified background image will scroll with the content or be fixed with regard to the canvas.">Background-Attachment<br> 
+                    BODY { background: white url(candybar.gif); <br>
+                    background-attachment: fixed; }
+                </p>
+                
+                <p title="Used to combine all properties of background.">Background <br> 
+                    BODY { background: white url(http://www.htmlhelp.com/foo.gif); } <br> 
+                    BLOCKQUOTE { background: #7fffd4; } <br> 
+                    P { background: url(../backgrounds/pawn.png) #f0f8ff fixed; } <br> 
+                    TABLE { background: red url(leaves.jpg) no-repeat bottom right; }
+                </p> 
+            </td>
+        </tr>
+        <tr>
+            <td><h2>Text Properties</h2>
+                <p title="Defines an additional amount of space between words.">Word-Spacing <br> 
+                    P EM { word-spacing: 0.4em; } <br>
+                    P.note { word-spacing: -0.2em; }
+                </p>
+                
+                <p title="Defines an additional amount of space between characters.">Letter-Spacing <br> 
+                    H1 { letter-spacing: 0.1em; } <br>
+                    P.note { letter-spacing: -0.1em; }
+                </p>
+
+                <p title="Allows text to be decorated through one of five properties: underline, overline, line-through, blink, none.">Text-Decoration <br> 
+                    A:link, A:visited, A:active { text-decoration: none; }
+                </p> 
+
+                <p title="Used to alter the vertical positioning of an inline element, relative to its parent element or to the element's line.">Vertical-Align <br> 
+                    IMG.middle { vertical-align: middle; } <br>
+                    IMG { vertical-align: 50%; } <br>
+                    .exponent { vertical-align: super; }
+                </p> 
+    
+                <p title="Allows for capitalizing the first letter of each word (capitalize), capitalizing all letters of a word (uppercase), using all small letters in each word(lowercase), and the inital value(none).">Text-Transform<br> 
+                    H1 { text-transform: uppercase; } <br>
+                    H2 { text-transform: capitalize; }
+                </p> 
+    
+                <p title="Used to justify text left, center, right, and justify.">Text-Align<br> 
+                    H1 { text-align: center; } <br>
+                    P.newspaper { text-align: justify; }
+                </p> 
+    
+                <p title="Used to specify the amount of indentation prior to the first line of text.">Text-Indent<br> 
+                    P { text-indent: 5em; }
+                </p> 
+    
+                <p title="Used to control the spacing between baselines of text.">Line-Height<br> 
+                    P { line-height: 200%; }
+                </p>               
+            </td>
+        </tr>
+    </table>
+    <footer id="idFooter" width="900" border="1px" align="center"> Copyright 2023 - All Rights Reserved</footer>
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+      </div>
+      <div class="display-date">
+        <span id="day">day</span>,
+        <span id="daynum">00</span>
+        <span id="month">month</span>
+        <span id="year">0000</span>
+      </div>
+      <div class="display-time"></div>
+    <script src="script.js"></script>
+</body>
+</html>
